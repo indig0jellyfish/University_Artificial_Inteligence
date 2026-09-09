@@ -124,7 +124,7 @@ unde:
 
 ## 5. Diagrama automatului finit
 
-![Diagrama automatului finit](https://drive.google.com/file/d/1KX6_Lqpz5vcHDr0HwcTDmR1LgX0WUv9R/view?usp=sharing)
+![Diagrama automatului finit](https://drive.google.com/file/d/1KX6_Lqpz5vcHDr0HwcTDmR1LgX0WUv9R/view?usp=drive_link)
 
 Automatul începe în starea $q_0$.
 
