@@ -1,4 +1,4 @@
-# Lucrarea de laborator nr. 1
+# Lucrarea de laborator nr. 2
 
 ## Implementarea algoritmului Mini-Max cu tăiere alfa-beta
 
