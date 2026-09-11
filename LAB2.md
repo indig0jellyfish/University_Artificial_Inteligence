@@ -348,7 +348,7 @@ testeaza(arbore, "naturala")
 testeaza(arbore, "inversa")
 ```
 
-## 9. Testarea programului
+## 8. Testarea programului
 
 Pentru testare a fost utilizat același arbore pentru toate cele patru rulări. Acest lucru este important pentru ca rezultatele să poată fi comparate corect.
 
@@ -360,7 +360,7 @@ Pentru testare a fost utilizat același arbore pentru toate cele patru rulări. 
 |   4 | Alfa-Beta | Inversă  |       32 |              1205 |   0.0004329 |
 
 
-## 10. Rezultatele executării programului
+## 9. Rezultatele executării programului
 
 ### Testul 1: Ordine naturală
 
@@ -412,11 +412,11 @@ $$
 Mini-Max obișnuit a verificat din nou toate cele **3280 de noduri**, în timp ce alfa-beta a verificat **1205 noduri**.
 
 
-## 11. Analiza rezultatelor
+## 10. Analiza rezultatelor
 
 Rezultatele experimentului demonstrează avantajul utilizării tăierii alfa-beta.
 
-### 11.1. Compararea numărului de noduri
+### 10.1. Compararea numărului de noduri
 
 Pentru ordinea naturală:
 
@@ -447,7 +447,7 @@ $$
 Astfel, ordinea naturală a fost mai eficientă pentru arborele generat, deoarece a permis realizarea unui număr mai mare de tăieri.
 
 
-### 11.2. Compararea timpului de execuție
+### 10.2. Compararea timpului de execuție
 
 Pentru ordinea naturală, timpul a scăzut de la aproximativ:
 
@@ -476,7 +476,7 @@ $$
 Prin urmare, algoritmul alfa-beta a fost mai rapid în ambele situații.
 
 
-### 11.3. Influența ordinii de parcurgere
+### 10.3. Influența ordinii de parcurgere
 
 Rezultatele arată că ordinea urmașilor are un efect important asupra algoritmului alfa-beta:
 
@@ -498,7 +498,7 @@ $$
 În experimentul realizat, **ordinea naturală a fost mai eficientă decât ordinea inversă**.
 
 
-## 12. Verificarea corectitudinii
+## 11. Verificarea corectitudinii
 
 Un aspect important este faptul că toate cele patru rulări au produs aceeași valoare finală:
 
@@ -523,7 +523,7 @@ Diferența dintre metode apare în principal la:
 * timpul necesar pentru execuție.
 
 
-## 13. Concluzie
+## 12. Concluzie
 
 În cadrul lucrării de laborator a fost implementat algoritmul **Mini-Max** și versiunea sa optimizată prin **tăiere alfa-beta** pentru un arbore de joc cu **adâncimea 7** și **lățimea 3**.
 
